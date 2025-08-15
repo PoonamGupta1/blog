@@ -1,0 +1,75 @@
+/* css variable */
+
+:root {
+  --main-bg-color: rgba(165, 42, 42, 0.836);
+  --font1: "Mozilla Headline", sans-serif;
+  --font2 :"Poppins", sans-serif;
+  --font3:"Playwrite HU", cursive;
+  --font4:"Playwrite AU QLD", cursive;
+  --font5:"Merriweather", serif;
+  --font6: "Roboto", sans-serif;
+}
+
+.logo {
+  font-family: var(--font5);
+  text-transform: capitalize;
+}
+.font1 {
+  font-family: var(--font1);
+}
+
+.font2 {
+  font-family: var(--font2);
+}
+
+.max-width-1 {
+  max-width: 80vw;
+}
+
+.max-width-2 {
+  max-width: 60vw;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.btn {
+  padding: 8px 11px;
+  margin-left: 6px;
+  border-radius: 7px;
+  background-color: azure;
+  border: 2px solid black;
+}
+
+.form-input {
+  border: 2px solid black;
+  padding: 8px 14px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: system-ui;
+}
+
+.btn:hover {
+  background-color: var(--main-bg-color);
+  color: white;
+  transition: 0.3s;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-control {
+}
